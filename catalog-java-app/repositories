@@ -1,0 +1,12 @@
+[repositories]
+  local
+  third_party_ca: https://repository.walmart.com/nexus/content/repositories/canada_releases/thirdparty
+  Maven-Central: https://repository.walmart.com/nexus/content/repositories/central/
+  Sbt-Maven-Releases: https://repository.walmart.com/nexus/repository/scala-sbt/maven-releases/
+  Sbt-Maven-Snapshots: https://repository.walmart.com/nexus/repository/scala-sbt/maven-snapshots/
+  Sbt-Plugin-Releases: https://repository.walmart.com/nexus/content/repositories/scala-sbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  Typesafe-Ivy-Releases: https://repository.walmart.com/nexus/content/repositories/typesafe-ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  Typesafe-Maven-Releases: https://repository.walmart.com/nexus/content/repositories/typesafe-maven-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+  WebSudos-OSS-Releases: https://repository.walmart.com/nexus/content/repositories/websudos-oss-releases/
+  Scala-Archive: https://repository.walmart.com/nexus/content/repositories/scala-archive/
+  

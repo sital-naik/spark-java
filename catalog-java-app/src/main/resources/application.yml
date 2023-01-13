@@ -1,0 +1,28 @@
+spring:
+  main:
+    web-application-type: none
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    root: ERROR
+
+spark:
+  cores:
+    max: 2
+  cassandra:
+    connection:
+      backend:
+        host: 127.0.0.1
+        port: 9042
+        timeout-ms: 10000
+        username:
+        password:
+  kafka:
+    brokers: localhost:9092
+    sku-index:
+      topic: ca-catalog-test
+      group-id: ca-catalog-test-g1
+
